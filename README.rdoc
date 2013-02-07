@@ -1,7 +1,6 @@
-Stripe Connect & Devise Rails Example
-========
+== Stripe Connect & Devise Rails Example
 
-This is an an example app using Stripe Connect and Devise.
+== This is an an example app using Stripe Connect and Devise.
 
 1.  Create an app in Stripe's account: https://manage.stripe.com/account/applications
 2.  Add your keys to your `config/initializers/devise.rb` file
