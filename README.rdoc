@@ -7,20 +7,11 @@ This is an an example app using Stripe Connect and Devise.
 1.  Create an app in Stripe's account: https://manage.stripe.com/account/applications
 2.  Add your keys to your `config/initializers/devise.rb` file
 
-Make sure to go to Stripe's Account Settings > Applications and set your Redirect URL to:
-```
-http://localhost:3003/users/auth/stripe_connect/callback
-```
+Make sure to go to Stripe's Account Settings > Applications and set your Redirect URL to: http://localhost:3003/users/auth/stripe_connect/callback
 
-The Webhook URL will be something similar:
-```
-http://www.yourdomain.com/users/auth/stripe_connect/callback
-```
+The Webhook URL will be something similar: http://www.yourdomain.com/users/auth/stripe_connect/callback
 
-Then you can go to this url to test it:
-```
-/auth/stripe_connect
-```
+Then you can go to this url to test it: /auth/stripe_connect
 
 If you go to that url with any query params, they will be passed along to Stripe. Read [Stripe's OAuth Reference] (https://stripe.com/docs/connect/reference) for more information.
 
